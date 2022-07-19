@@ -142,8 +142,7 @@ body {
 .headliner__title {
   line-height: 1.2;
   margin: 0;
-  font-family: "Crete Round", "Open Sans",
-    sans-serif;
+  font-family: "Crete Round", "Open Sans", sans-serif;
 }
 
 .headliner__link {
@@ -219,8 +218,7 @@ body {
 
 .article__title {
   margin: 0;
-  font-family: "Crete Round", "Open Sans",
-    sans-serif;
+  font-family: "Crete Round", "Open Sans", sans-serif;
 }
 
 .article__link {
@@ -276,8 +274,7 @@ body {
 .top__item__title {
   font-size: 16px;
   margin: 0;
-  font-family: "Crete Round", "Open Sans",
-    sans-serif;
+  font-family: "Crete Round", "Open Sans", sans-serif;
 }
 
 .top__item__date {
@@ -307,8 +304,7 @@ body {
 }
 
 .callout-item__title {
-  font-family: "Crete Round", "Open Sans",
-    sans-serif;
+  font-family: "Crete Round", "Open Sans", sans-serif;
   font-size: 24px;
   margin: 24px 0 0;
 }
@@ -334,8 +330,7 @@ body {
 
 .day__name {
   margin: 0;
-  font-family: "Crete Round", "Open Sans",
-    sans-serif;
+  font-family: "Crete Round", "Open Sans", sans-serif;
 }
 
 .day__details {
@@ -370,8 +365,7 @@ body {
 
 .footer-heading {
   font-size: 20px;
-  font-family: "Crete Round", "Open Sans",
-    sans-serif;
+  font-family: "Crete Round", "Open Sans", sans-serif;
 }
 
 .footer-link {
@@ -402,18 +396,27 @@ body {
 }
 
 .menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .articles {
 }
 
 .article {
+  display: flex;
+  flex-direction: column;
 }
 
 .article__info {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
 }
 
 .article__excerpt {
+  flex: 1;
 }
 
 .headliners {
@@ -491,6 +494,8 @@ body {
 
 @media (min-width: 640px) {
   .nav {
+    display: flex;
+    align-items: center;
   }
 
   .headliner-two {
@@ -569,8 +574,7 @@ body {
 }
 
 .gallery-heading {
-  font-family: "Crete Round", "Open Sans",
-    sans-serif;
+  font-family: "Crete Round", "Open Sans", sans-serif;
   font-size: 28px;
   line-height: 1.2;
 }
@@ -602,8 +606,7 @@ body {
 
 .event__title {
   font-size: 28px;
-  font-family: "Crete Round", "Open Sans",
-    sans-serif;
+  font-family: "Crete Round", "Open Sans", sans-serif;
   margin: 16px 0 0;
 }
 
