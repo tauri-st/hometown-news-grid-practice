@@ -519,6 +519,7 @@ body {
   }
 
   .articles {
+    grid-column: 2 / 9;
   }
 
   .sidebar {
